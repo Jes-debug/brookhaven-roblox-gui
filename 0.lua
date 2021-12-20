@@ -54,6 +54,8 @@ main.BackgroundTransparency = 0.100
 main.BorderColor3 = Color3.fromRGB(0, 0, 255)
 main.Position = UDim2.new(-0.00154796243, 0, 0.327495635, 0)
 main.Size = UDim2.new(0, 317, 0, 384)
+main.Active = true
+main.Draggable = true
 
 title.Name = "title"
 title.Parent = main
@@ -157,8 +159,8 @@ close.Text = "X"
 close.TextColor3 = Color3.fromRGB(0, 0, 0)
 close.TextSize = 14.000
 close.MouseButton1Down:connect(function()
-	main.Visible = false
-	open.Visible = true
+main.Visible = false
+open.Visible = true
 end)
 
 UICorner_7.Parent = close
@@ -325,8 +327,8 @@ openbutton.Text = "<"
 openbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
 openbutton.TextSize = 14.000
 openbutton.MouseButton1Down:connect(function()
+open.Visible = false
 main.Visible = true
-close.Visible = false
 end)
 
 UICorner_18.Parent = openbutton
