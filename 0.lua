@@ -324,6 +324,10 @@ openbutton.Font = Enum.Font.SourceSans
 openbutton.Text = "<"
 openbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
 openbutton.TextSize = 14.000
+openbutton.MouseButton1Down:connect(function()
+main.Visible = true
+close.Visible = false
+end)
 
 UICorner_18.Parent = openbutton
 
