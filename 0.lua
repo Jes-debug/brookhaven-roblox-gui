@@ -178,6 +178,7 @@ TextLabel.Font = Enum.Font.SciFi
 TextLabel.Text = "jes#1772's gui"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
+TextLabel.Draggable = true
 
 UICorner_9.CornerRadius = UDim.new(0, 20)
 UICorner_9.Parent = TextLabel
