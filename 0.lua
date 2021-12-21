@@ -391,6 +391,8 @@ secretmain.BorderColor3 = Color3.fromRGB(0, 0, 255)
 secretmain.Position = UDim2.new(0.00319488812, 0, 0.325744331, 0)
 secretmain.Size = UDim2.new(0, 316, 0, 384)
 secretmain.Draggable = true
+secretmain.Visible = false
+secretmain.BackgroundTransparency = 0.100
 
 UICorner_21.CornerRadius = UDim.new(0, 20)
 UICorner_21.Parent = secretmain
