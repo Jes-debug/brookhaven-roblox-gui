@@ -390,6 +390,7 @@ secretmain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 secretmain.BorderColor3 = Color3.fromRGB(0, 0, 255)
 secretmain.Position = UDim2.new(0.00319488812, 0, 0.325744331, 0)
 secretmain.Size = UDim2.new(0, 316, 0, 384)
+secretmain.Draggable = true
 
 UICorner_21.CornerRadius = UDim.new(0, 20)
 UICorner_21.Parent = secretmain
@@ -414,7 +415,7 @@ title_2.Parent = secretmain
 title_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 title_2.Size = UDim2.new(0, 317, 0, 34)
 title_2.Font = Enum.Font.GothamBlack
-title_2.Text = "Brook's Haxx |V.2| "
+title_2.Text = "Brook's Haxx |V.3| "
 title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_2.TextSize = 14.000
 
